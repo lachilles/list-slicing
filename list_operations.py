@@ -234,7 +234,9 @@ def delete_middle(input_list):
 
     """
 
-    del input_list[2:-2]
+    input_list[2:-2] = []
+
+    #alternate solution: del input_list[2:-2]
 
 
 ##############################################################################
